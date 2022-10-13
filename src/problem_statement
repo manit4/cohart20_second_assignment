@@ -1,0 +1,24 @@
+//First write the POJO class for Employees with attributes as empId, fName, lName, email, salary with al the setters and getters,
+//parameterized constructor as well as no-arg since no-arg constructor is advised to have even though you do not use it..
+//Create 4-5 Employees objects and keep it in the ArrayList. And then, you have to display all the Employees details with their Bonus amount...
+//terms to calculate the bonus amount- if user workX is less than or equal to 2 years then bonus amount should be 50% of the salary
+//if the workX is more than 2 years then the calculated bonus amount would be 100%... 
+
+
+
+===========================================================
+
+
+//#1 Prompt message- Press 1 to Register, press 2 for Log-in and Press 0 for terminate the program
+//if user presses 1, then you should prompt message- "Press 1 to Register as Admin and press 2 to register as Normal User
+	//Irrespective of what he gives you either 1 or 2, you should takes his/her details like username, password, firstName, lastName,
+	//email, phone and make sure that username is unique in a table as a primary key. mIf multiple users give same username while 
+	//registering then you should prompt the message back that "username is already taken, please choose another" and ask again to give
+	//details that means this regsitration process should go into loop until registration is successful...and user should sent back to the main
+	//menu which is "Prompt message- Press 1 to Register, press 2 for Log-in and Press 0 for terminate the program"
+//#2 if user presses 2, then prompt the message- "you wish to login as Admin the press 1 or 2 for Normal User!!
+	//if user presses 1, you should ask you press 1 to display all the books present or press 2 to create book or 0 to terminate the program
+	//if presses 1, you should display all the books available in the database
+	//if presses 2, you should ask all the books information which admin wishes to add in the database like bookid, bookname, authorname, description
+	//after the book is added, you should prompt this message- "press 1 to display all the books present or press 2 to create book or 0 to terminate the
+	//program or 4 to go back to the main menu"
